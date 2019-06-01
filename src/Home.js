@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import Summary from './Summary.js';
 import Navigation from './Navigation.js';
 import Story from './Story.js';
+import Projects from './Projects.js';
+import Contact from './Contact.js';
+import Footer from './Footer.js';
 import './Home.css';
 
 function Home() {
@@ -17,6 +20,9 @@ function Home() {
       <Navigation />
       <Summary />
       <Story />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

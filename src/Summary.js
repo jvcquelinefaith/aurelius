@@ -4,7 +4,7 @@ import './Home.css';
 function Summary() {
   return (
     <div className="Summary">
-      <img className="summary-background"/>
+      <img className="summary-background" src={require('./images/me.jpg')}/>
       <p className="summary-text">
           Venus is a renowned designer
           and 4-time award winning
