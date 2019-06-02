@@ -6,12 +6,20 @@ function Contact() {
     <div className="Contact">
       <h2>CONTACT</h2>
       <form className="contact-form">
-        <p>name</p>
-        <input type="text"></input>
-        <p>email</p>
-        <input type="text"></input>
-        <p>message</p>
-        <textarea type="text"></textarea>
+        <p>name
+          <input type="text"></input>
+        </p>
+        <p>email
+          <input type="text"></input>
+        </p>
+        <p>message <br/>
+          <textarea type="text"></textarea>
+        </p>
+
+        <div className="button-row">
+          <button id="primary">→Send</button>
+          <button id="secondary">→Cancel</button>
+        </div>
       </form>
     </div>
   );
